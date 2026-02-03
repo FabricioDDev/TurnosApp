@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|c:\\users\\sysuser\\documents\\github\\turnosapp\\turnosapp\\views\\styles\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|solutionrelative:views\\styles\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|c:\\users\\sysuser\\documents\\github\\turnosapp\\turnosapp\\entities\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|solutionrelative:entities\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|c:\\users\\sysuser\\documents\\github\\turnosapp\\turnosapp\\data\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|solutionrelative:data\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|c:\\users\\sysuser\\documents\\github\\turnosapp\\turnosapp\\common\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|solutionrelative:common\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|c:\\users\\sysuser\\documents\\github\\turnosapp\\turnosapp\\business\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E2D8EDD3-CEC2-47B8-8D57-26A126E75531}|TurnosApp.csproj|solutionrelative:business\\.gitkeep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitkeep",
+              "DocumentMoniker": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Views\\Styles\\.gitkeep",
+              "RelativeDocumentMoniker": "Views\\Styles\\.gitkeep",
+              "ToolTip": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Views\\Styles\\.gitkeep",
+              "RelativeToolTip": "Views\\Styles\\.gitkeep",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-03T00:24:50.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitkeep",
+              "DocumentMoniker": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Entities\\.gitkeep",
+              "RelativeDocumentMoniker": "Entities\\.gitkeep",
+              "ToolTip": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Entities\\.gitkeep",
+              "RelativeToolTip": "Entities\\.gitkeep",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-03T00:24:30.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitkeep",
+              "DocumentMoniker": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Data\\.gitkeep",
+              "RelativeDocumentMoniker": "Data\\.gitkeep",
+              "ToolTip": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Data\\.gitkeep",
+              "RelativeToolTip": "Data\\.gitkeep",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-03T00:24:16.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitkeep",
+              "DocumentMoniker": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Common\\.gitkeep",
+              "RelativeDocumentMoniker": "Common\\.gitkeep",
+              "ToolTip": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Common\\.gitkeep",
+              "RelativeToolTip": "Common\\.gitkeep",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-03T00:24:05.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".gitkeep",
+              "DocumentMoniker": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Business\\.gitkeep",
+              "RelativeDocumentMoniker": "Business\\.gitkeep",
+              "ToolTip": "C:\\Users\\SysUser\\Documents\\GitHub\\TurnosApp\\TurnosApp\\Business\\.gitkeep",
+              "RelativeToolTip": "Business\\.gitkeep",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-03T00:23:50.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
