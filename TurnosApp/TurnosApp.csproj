@@ -70,6 +70,16 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Contact.cs" />
+    <Compile Include="Entities\ContactType.cs" />
+    <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\Professional.cs" />
+    <Compile Include="Entities\ProfessionalStage.cs" />
+    <Compile Include="Entities\Role.cs" />
+    <Compile Include="Entities\Stage.cs" />
+    <Compile Include="Entities\Ticket.cs" />
+    <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
