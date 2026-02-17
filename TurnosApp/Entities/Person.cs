@@ -7,11 +7,23 @@ namespace TurnosApp.Entities
 {
     public class Person
     {
-        int personId {  get; set; }
-        int nationalId {  get; set; }
-        string firstName {  get; set; }
-        string lastName { get; set; }
-        DateTime createdAt { get; set; }
-        bool isActive {  get; set; }
+        public int PersonId { get; set; }
+        public int NationalId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public bool IsActive { get; set; }
+
+        public Person(int nationalId, string firstName, string lastName)
+        {
+            //asignacion
+            NationalId = nationalId;
+            FirstName = firstName;
+            LastName = lastName;
+
+            // Lógica automática:
+            CreatedAt = DateTime.Now;
+            IsActive = true;
+        }
     }
 }

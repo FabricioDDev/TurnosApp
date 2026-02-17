@@ -5,9 +5,13 @@ using System.Web;
 
 namespace TurnosApp.Entities
 {
-    public class Customer:Person
+    public class Customer : Person
     {
-        int _customerId {  get; set; }
-        DateTime _createdAt {  get; set; }
+        public int CustomerId { get; set; }
+
+        public Customer(int nationalId, string firstName, string lastName)
+            : base(nationalId, firstName, lastName)
+        {
+        }
     }
 }

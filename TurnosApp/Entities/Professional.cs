@@ -5,11 +5,18 @@ using System.Web;
 
 namespace TurnosApp.Entities
 {
-    public class Professional
+    public class Professional:Person
     {
-        int _professionalId {  get; set; }
-        string _licenseNumber {  get; set; }
-        string _specialty {  get; set; }
-        bool _isActive {  get; set; }
+        public int ProfessionalId { get; set; }
+        public string LicenseNumber { get; set; }
+        public string Specialty { get; set; }
+
+
+        public Professional(int nationalId, string firstName, string lastName, string licenseNumber, string specialty)
+        : base(nationalId, firstName, lastName)
+        {
+            LicenseNumber = licenseNumber;
+            Specialty = specialty;
+        }
     }
 }

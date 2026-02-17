@@ -7,8 +7,14 @@ namespace TurnosApp.Entities
 {
     public class ContactType
     {
-        int _contactTypeId {  get; set; }
-        string _description {  get; set; }
-        bool _isActive {  get; set; }
+        public int ContactTypeId { get; set; }
+        public string ContactName { get; set; }
+        public bool IsActive { get; set; }
+
+        public ContactType(string contactName)
+        {
+            ContactName = contactName;
+            IsActive = true;
+        }
     }
 }

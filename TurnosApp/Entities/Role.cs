@@ -7,8 +7,14 @@ namespace TurnosApp.Entities
 {
     public class Role
     {
-        int _roleId {  get; set; }
-        string _name { get; set; }
-        bool _isActive {  get; set; }
+        public int RoleId { get; set; }
+        public string Name { get; set; }
+        public bool IsActive { get; set; }
+
+        public Role(string name)
+        {
+            Name = name;
+            IsActive = true;
+        }
     }
 }

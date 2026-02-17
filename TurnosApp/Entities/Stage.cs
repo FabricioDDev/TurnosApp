@@ -8,10 +8,19 @@ namespace TurnosApp.Entities
 {
     public class Stage
     {
-        int _stageId {  get; set; }
-        string _name { get; set; }
-        int _sortOrder {  get; set; }
-        int _estimatedDuration {  get; set; }
-        bool _isActive {  get; set; }
+        public int StageId { get; set; }
+        public string Name { get; set; } 
+        public int SortOrder { get; set; } 
+        public int EstimatedDuration { get; set; }
+        public bool IsActive { get; set; }
+
+        public Stage(string name, int sortOrder, int estimatedDuration)
+        {
+            Name = name;
+            SortOrder = sortOrder;
+            EstimatedDuration = estimatedDuration;
+
+            IsActive = true;
+        }
     }
 }
