@@ -13,8 +13,8 @@ namespace TurnosApp.Entities
         public string LastName { get; set; }
         public DateTime CreatedAt { get; set; }
         public bool IsActive { get; set; }
-
-        public Person(int nationalId, string firstName, string lastName)
+        public List<Contact> Contacts { get; set; }
+        public Person(int nationalId, string firstName, string lastName, Contact initialContact)
         {
             //asignacion
             NationalId = nationalId;
@@ -24,6 +24,13 @@ namespace TurnosApp.Entities
             // Lógica automática:
             CreatedAt = DateTime.Now;
             IsActive = true;
+            //inicializacion
+            Contacts = new List<Contact>();
+
+            if (initialContact != null)
+            {
+                Contacts.Add(initialContact);
+            }
         }
     }
 }
