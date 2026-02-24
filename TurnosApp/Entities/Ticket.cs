@@ -14,7 +14,7 @@ namespace TurnosApp.Entities
         public string DisplayCode { get; set; }
         public int CurrentStageId { get; set; }
         public int AssignedProfessionalId { get; set; }
-        public char StatusUpdate { get; set; } 
+        public char Status { get; set; } 
         public DateTime StatusUpdatedAt { get; set; }
 
         
@@ -27,7 +27,7 @@ namespace TurnosApp.Entities
             // Lógica automática de creación
             CreatedTime = DateTime.Now;
             StatusUpdatedAt = DateTime.Now;
-            StatusUpdate = 'P'; // Todo ticket empieza como Pendiente
+            Status = 'P'; // Todo ticket empieza como Pendiente
         }
     }
 }

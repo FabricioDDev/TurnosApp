@@ -9,8 +9,8 @@ namespace TurnosApp.Entities
     {
         public int CustomerId { get; set; }
 
-        public Customer(int nationalId, string firstName, string lastName)
-            : base(nationalId, firstName, lastName)
+        public Customer(int nationalId, string firstName, string lastName, Contact initialcontact)
+            : base(nationalId, firstName, lastName, initialcontact)
         {
         }
     }

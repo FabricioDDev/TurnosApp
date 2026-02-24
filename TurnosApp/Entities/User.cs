@@ -13,8 +13,8 @@ namespace TurnosApp.Entities
         public int RoleId { get; set; }
         public DateTime LastLogin { get; set; }
 
-        public User(int nationalId, string firstName, string lastName, string userName, string hash, int roleId)
-            : base(nationalId, firstName, lastName)
+        public User(int nationalId, string firstName, string lastName, string userName, string hash, int roleId, Contact initialcontact)
+            : base(nationalId, firstName, lastName, initialcontact)
         {
             UserName = userName;
             this.Hash = hash;
